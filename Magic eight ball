@@ -1,0 +1,41 @@
+const userName = ' '; //Name here
+if (userName) {
+  console.log('hello ' + userName + '!')
+} else {
+  console.log('Hello!')
+};
+const userQuestion = 'If' //Question here
+if (userName) {
+  console.log('ahh, you would like to know ' + userQuestion + ' ' + userName + '.')
+} else {
+  console.log('ahh, you would like to know ' + userQuestion + '.')
+};
+let eightBall = Math.floor(Math.random() * 8 );
+switch (eightBall) {
+  case 0:
+    eightBall = 'I can see that It is certain' 
+    break;
+  case 1:
+    eightBall = 'I can see that It is decidedly so' 
+    break;
+  case 2:
+  	eightBall = 'Reply hazy, try again'
+    break;
+  case 3:
+    eightBall = 'Cannot predict now'
+    break;
+  case 4:
+    eightBall = 'Do not count on it'
+    break;
+  case 5:
+    eightBall = 'I can see that my sources say no'
+    break;
+  case 6:
+    eightBall = 'I can see the outlook is not so good' 
+    break;
+  case 7:
+    eightBall = 'I can see signs pointing to yes' 
+    break;
+};
+console.log()
+console.log(eightBall)
